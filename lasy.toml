@@ -1,0 +1,12 @@
+[[plugins]] # 補完
+repo = 'Shougo/neocomplete.vim'
+
+[[plugins]] # スニペット
+repo = 'Shougo/neosnippet'
+
+[[plugins]] # スニペット
+repo = 'Shougo/neosnippet-snippets'
+
+[[plugins]] # メソッドの定義元にジャンプ
+repo = 'szw/vim-tags'
+
