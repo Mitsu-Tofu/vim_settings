@@ -4,14 +4,14 @@ repo = 'Shougo/dein.vim'
 [[plugins]] # 非同期処理
 repo = 'Shougo/vimproc.vim'
 
-[[plugins]] # colorschema
+[[plugins]] # colorschema TODO it too old so should been replaced
 repo = 'chriskempson/vim-tomorrow-theme'
+
+[[plugins]]
+repo = 'Shougo/neoyank.vim'
 
 [[plugins]] # slimのハイライト
 repo = 'slim-template/vim-slim'
-
-[[plugins]] # ES6のハイライト
-repo = 'othree/yajs.vim'
 
 [[plugins]] # インデントを見やすく
 repo = 'Yggdroot/indentLine'

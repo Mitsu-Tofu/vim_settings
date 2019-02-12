@@ -1,6 +1,15 @@
 [[plugins]] # 補完
 repo = 'Shougo/neocomplete.vim'
 
+[[plugins]]
+repo = 'Shougo/neoyank.vim'
+
+[[plugins]]
+repo = 'ervandew/supertab'
+
+[[plugins]]
+repo = 'scrooloose/syntastic'
+
 [[plugins]] # スニペット
 repo = 'Shougo/neosnippet'
 
@@ -10,3 +19,24 @@ repo = 'Shougo/neosnippet-snippets'
 [[plugins]] # メソッドの定義元にジャンプ
 repo = 'szw/vim-tags'
 
+[[plugins]] # ES6のハイライト
+repo = 'othree/yajs.vim'
+on_ft = ['javascript', 'javascript.jsx']
+
+[[plugins]]
+repo =  'othree/es.next.syntax.vim'
+on_ft = ['javascript', 'javascript.jsx']
+
+[[plugins]]
+repo = 'othree/javascript-libraries-syntax.vim'
+on_ft = ['javascript', 'javascript.jsx']
+
+
+[[plugins]] # for js indentation
+repo = 'pangloss/vim-javascript'
+on_ft = ['javascript', 'javascript.jsx']
+
+[[plugins]]
+repo = 'ternjs/tern_for_vim'
+on_ft = ['javascript', 'javascript.jsx']
+hook_add = 'call system("npm install")'
